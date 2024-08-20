@@ -228,3 +228,12 @@ str_squish(feedback)
 str_trim(feedback)
 ```
 
+## other string modifiers
+```{r}
+str_to_lower(feedback)
+str_to_upper(feedback)
+str_to_title(feedback)
+
+str_count(feedback, pattern = "nachos")
+```
+
